@@ -15,10 +15,7 @@ import java.util.List;
 @NoArgsConstructor
 @ApiModel
 @Data
-public class PageInfoVo implements  Serializable {
-@ApiModelProperty("zongjilushu")
-
-
+public class PageInfoVo implements Serializable {
 
     @ApiModelProperty("总记录数")
     private Long total;
